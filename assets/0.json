@@ -1,0 +1,13 @@
+{
+    "name": "goatse",
+    "symbol": "goatse",
+    "description": "goatse",
+    "seller_fee_basis_points": 420,
+    "image": "0.jpg",
+    "attributes": [],
+    "properties": {
+        "creators": [{"address": "xd", "share": 100}],
+        "files": [{"uri": "0.jpg", "type": "image/jpg"}]
+    },
+    "collection": {"name": "goatse", "family": "goatse"}
+}

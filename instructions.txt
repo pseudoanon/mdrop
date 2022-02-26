@@ -1,0 +1,29 @@
+# make a new keypair
+solana-keygen new -o tmp.json (& force)
+solana config set --keypair ./tmp.json
+
+# add keypair to conf
+solana address -> $VAR
+echo "solTreasuryAccount": $VAR,\n}
+
+# fund keypair
+??
+
+# upload
+ts-node ~/metaplex/js/packages/cli/src/candy-machine-v2-cli.ts upload \
+    -e devnet \
+    -k ~/.config/solana/devnet.json \
+    -cp config.json \
+    -c example \
+    ./assets
+
+# mint
+ts-node ~/metaplex/js/packages/cli/src/candy-machine-v2-cli.ts mint_one_token \
+    -e devnet \
+    -k ~/.config/solana/devnet.json \
+    -c example
+
+
+# send
+
+??
